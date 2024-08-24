@@ -8,6 +8,7 @@ Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in
 
 ## Features
 
+- 🧩 **Universal Format Support:** Handles strings in any format — whether it's time, date, prices, or anything else.
 - 🪶 **Less than 0kb:** It's so lightweight, it might just disappear! (But it won't, we promise.)
 - 🛡️ **Zero Dependencies:** No baggage, no problems. Just pure spinning goodness.
 - 🦴 **Headless:** You bring the style, react-spinning-numbers brings the spin.
