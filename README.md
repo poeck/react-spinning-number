@@ -1,6 +1,10 @@
+<img src="./example/example.gif" width="100%">
+
 # react-spinning-numbers 🎉
 
-Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in your React app, then get ready to spin things up—literally! This package adds some serious ✨ pizzazz ✨ to your numbers with smooth, eye-catching animations.
+Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in your react app, then get ready to spin things up—literally! This package adds some serious ✨ pizzazz ✨ to your numbers with smooth, eye-catching animations.
+
+## Demo
 
 ## Features
 
@@ -9,9 +13,9 @@ Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in
 - 🦴 **Headless:** You bring the style, react-spinning-numbers brings the spin.
 - 🎨 **Cool Animation:** Transform your digits into mesmerizing spinners.
 
-## Installation
+## Usage
 
-Getting started is a breeze! Just install via your favorite package manager:
+To get started, just install `react-spinning-numbers` via your favorite package manager:
 
 ```bash
 npm install react-spinning-numbers
@@ -20,7 +24,7 @@ pnpm add react-spinning-numbers
 bun add react-spinning-numbers
 ```
 
-Want to see those numbers spin? Let's dive in! 🌀
+Want to see those numbers spin?
 
 ```javascript
 import React, { useState } from "react";
@@ -40,13 +44,13 @@ export default function Component() {
 
 ## Configuration
 
-Here’s the magic sauce behind `SpinningNumbers`:
+There props are allowed for the `SpinningNumbers` component:
 
-| Property    | Required | Type               | Default | Description                                                                        |
-| ----------- | -------- | ------------------ | ------- | ---------------------------------------------------------------------------------- |
-| `children`  | ✅       | `string \| number` | -       | The number or string to spin.                                                      |
-| `fontSize`  | ✅       | `number`           | -       | Sets the font size for the spinning numbers.                                       |
-| `className` | ❌       | `string`           | -       | Adds a custom class for additional styling.                                        |
-| `style`     | ❌       | `CSSProperties`    | -       | Custom inline styles, excluding `lineHeight`, `fontSize`, `margin`, and `padding`. |
-| `duration`  | ❌       | `number`           | `300`   | Controls the duration of the each digits spin animation, in milliseconds.          |
-| `stagger`   | ❌       | `number`           | `100`   | Adds a stagger effect to the spin animation, in milliseconds.                      |
+| Property    | Required | Type               | Default | Description                                                                                     |
+| ----------- | -------- | ------------------ | ------- | ----------------------------------------------------------------------------------------------- |
+| `children`  | ✅       | `string \| number` | -       | The number or string to spin.                                                                   |
+| `fontSize`  | ✅       | `number`           | -       | Sets the font size for the spinning numbers.                                                    |
+| `className` | ❌       | `string`           | -       | Adds a custom class for additional styling.                                                     |
+| `style`     | ❌       | `CSSProperties`    | -       | Custom inline styles, excluding `lineHeight`, `fontSize`, `margin`, `whiteSpace` and `padding`. |
+| `duration`  | ❌       | `number`           | `300`   | Controls the duration of the each digits spin animation, in milliseconds.                       |
+| `stagger`   | ❌       | `number`           | `100`   | Adds a stagger effect to the spin animation, in milliseconds.                                   |
