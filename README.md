@@ -4,8 +4,6 @@
 
 Welcome to `react-spinning-number`! If you're tired of boring static numbers in your react app, then get ready to spin things up—literally! This package adds some serious ✨ pizzazz ✨ to your numbers with smooth, eye-catching animations.
 
-## Demo
-
 ## Features
 
 - 🧩 **Universal Format Support:** Handles strings in any format — whether it's time, date, prices, or anything else.
