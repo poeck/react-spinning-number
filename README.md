@@ -53,3 +53,7 @@ There props are allowed for the `SpinningNumber` component:
 | `style`     | ❌       | `CSSProperties`    | -       | Custom inline styles, excluding `lineHeight`, `fontSize`, `margin`, `whiteSpace` and `padding`. |
 | `duration`  | ❌       | `number`           | `300`   | Controls the duration of the each digits spin animation, in milliseconds.                       |
 | `stagger`   | ❌       | `number`           | `100`   | Adds a stagger effect to the spin animation, in milliseconds.                                   |
+
+## Credits
+
+This project was inspired by the [react-native-spinning-numbers](https://github.com/birdwingo/react-native-spinning-numbers) library by [birdwingo](https://github.com/birdwingo). A big thanks to them for their work, which served as a great inspiration for this project.
