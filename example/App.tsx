@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import SpinningNumbers from "../lib/main";
+import SpinningNumber from "../lib/main";
 
 const button = {
   cursor: "pointer",
@@ -65,7 +65,7 @@ export default function Home() {
         width: "100%",
       }}
     >
-      <SpinningNumbers
+      <SpinningNumber
         fontSize={8}
         style={{
           fontWeight: "bold",
@@ -73,7 +73,7 @@ export default function Home() {
         }}
       >
         {formatter.format(price)}
-      </SpinningNumbers>
+      </SpinningNumber>
       <div style={{ marginTop: "4rem", display: "flex", gap: "1rem" }}>
         {prices.map((value, index) => (
           <button

@@ -1,8 +1,8 @@
 <img src="./example/example.gif" width="100%">
 
-# react-spinning-numbers 🎉
+# react-spinning-number 🎉
 
-Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in your react app, then get ready to spin things up—literally! This package adds some serious ✨ pizzazz ✨ to your numbers with smooth, eye-catching animations.
+Welcome to `react-spinning-number`! If you're tired of boring static numbers in your react app, then get ready to spin things up—literally! This package adds some serious ✨ pizzazz ✨ to your numbers with smooth, eye-catching animations.
 
 ## Demo
 
@@ -11,32 +11,32 @@ Welcome to `react-spinning-numbers`! If you're tired of boring static numbers in
 - 🧩 **Universal Format Support:** Handles strings in any format — whether it's time, date, prices, or anything else.
 - 🪶 **Less than 0kb:** It's so lightweight, it might just disappear! (But it won't, we promise.)
 - 🛡️ **Zero Dependencies:** No baggage, no problems. Just pure spinning goodness.
-- 🦴 **Headless:** You bring the style, react-spinning-numbers brings the spin.
+- 🦴 **Headless:** You bring the style, react-spinning-number brings the spin.
 - 🎨 **Cool Animation:** Transform your digits into mesmerizing spinners.
 
 ## Usage
 
-To get started, just install `react-spinning-numbers` via your favorite package manager:
+To get started, just install `react-spinning-number` via your favorite package manager:
 
 ```bash
-npm install react-spinning-numbers
-yarn add react-spinning-numbers
-pnpm add react-spinning-numbers
-bun add react-spinning-numbers
+npm install react-spinning-number
+yarn add react-spinning-number
+pnpm add react-spinning-number
+bun add react-spinning-number
 ```
 
 Want to see those numbers spin?
 
 ```javascript
 import React, { useState } from "react";
-import SpinningNumbers from "react-spinning-numbers";
+import SpinningNumber from "react-spinning-number";
 
 export default function Component() {
   const [value, setValue] = useState(1);
 
   return (
     <div>
-      <SpinningNumbers>{value}</SpinningNumbers>
+      <SpinningNumber>{value}</SpinningNumber>
       <button onClick={() => setValue(value + 1)}>Increase</button>
     </div>
   );
@@ -45,7 +45,7 @@ export default function Component() {
 
 ## Configuration
 
-There props are allowed for the `SpinningNumbers` component:
+There props are allowed for the `SpinningNumber` component:
 
 | Property    | Required | Type               | Default | Description                                                                                     |
 | ----------- | -------- | ------------------ | ------- | ----------------------------------------------------------------------------------------------- |

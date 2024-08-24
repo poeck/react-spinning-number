@@ -1,3 +1,3 @@
-import { SpinningNumbers } from "./components/spinning-numbers";
+import { SpinningNumber } from "./components/spinning-number";
 
-export default SpinningNumbers;
+export default SpinningNumber;

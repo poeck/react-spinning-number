@@ -1,14 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Digit } from "./digit";
 
-import type { SpinningNumbersProps } from "../types/props";
+import type { SpinningNumberProps } from "../types/props";
 import type { Elements } from "../types/elements";
 
-export function SpinningNumbers({
+export function SpinningNumber({
   children,
   stagger = 100,
   ...props
-}: SpinningNumbersProps) {
+}: SpinningNumberProps) {
   const highestNumberCount = useRef(0);
   const lastNumbers = useRef<Elements>([]);
 

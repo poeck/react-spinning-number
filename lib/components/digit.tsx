@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-import type { SpinningNumbersProps } from "../types/props";
+import type { SpinningNumberProps } from "../types/props";
 
-interface DigitProps
-  extends Omit<SpinningNumbersProps, "stagger" | "children"> {
+interface DigitProps extends Omit<SpinningNumberProps, "stagger" | "children"> {
   char: string | null;
   delay?: number;
   loaded: boolean;

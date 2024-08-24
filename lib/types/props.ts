@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 
-export interface SpinningNumbersProps {
+export interface SpinningNumberProps {
   children: string | number;
   fontSize: number;
   className?: string;
