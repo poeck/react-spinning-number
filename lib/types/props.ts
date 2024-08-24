@@ -6,5 +6,8 @@ export interface SpinningNumbersProps {
   className?: string;
   duration?: number;
   stagger?: number;
-  style?: Omit<CSSProperties, "lineHeight" | "fontSize" | "margin" | "padding">;
+  style?: Omit<
+    CSSProperties,
+    "lineHeight" | "fontSize" | "margin" | "padding" | "whiteSpace"
+  >;
 }

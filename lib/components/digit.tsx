@@ -27,6 +27,7 @@ export function Digit({
     lineHeight: 1,
     margin: 0,
     fontSize: `${fontSize}rem`,
+    whiteSpace: "pre",
   };
 
   useEffect(() => {
@@ -95,7 +96,6 @@ export function Digit({
           style={{
             ...customStyle,
             display: "inline-block",
-            whiteSpace: "pre",
             opacity: 0,
           }}
           aria-hidden="true"
