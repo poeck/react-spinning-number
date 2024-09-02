@@ -34,7 +34,7 @@ export default function Component() {
 
   return (
     <div>
-      <SpinningNumber>{value}</SpinningNumber>
+      <SpinningNumber fontSize={2}>{value}</SpinningNumber>
       <button onClick={() => setValue(value + 1)}>Increase</button>
     </div>
   );
@@ -48,7 +48,7 @@ There props are allowed for the `SpinningNumber` component:
 | Property    | Required | Type               | Default | Description                                                                                     |
 | ----------- | -------- | ------------------ | ------- | ----------------------------------------------------------------------------------------------- |
 | `children`  | ✅       | `string \| number` | -       | The number or string to spin.                                                                   |
-| `fontSize`  | ✅       | `number`           | -       | Sets the font size for the spinning numbers.                                                    |
+| `fontSize`  | ✅       | `number`           | -       | Sets the font size (in rem) for the spinning numbers.                                           |
 | `className` | ❌       | `string`           | -       | Adds a custom class for additional styling.                                                     |
 | `style`     | ❌       | `CSSProperties`    | -       | Custom inline styles, excluding `lineHeight`, `fontSize`, `margin`, `whiteSpace` and `padding`. |
 | `duration`  | ❌       | `number`           | `300`   | Controls the duration of the each digits spin animation, in milliseconds.                       |
