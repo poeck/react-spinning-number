@@ -56,17 +56,17 @@ export function Digit({
           transitionProperty: loaded ? "all" : "none",
         }}
       >
-        <p aria-hidden="true" style={customStyle} className={className}>
+        <span aria-hidden="true" style={customStyle} className={className}>
           {previousValue}
-        </p>
+        </span>
       </div>
     );
 
   if (!/^\d+$/.test(char))
     return (
-      <p aria-hidden="true" style={customStyle} className={className}>
+      <span aria-hidden="true" style={customStyle} className={className}>
         {char}
-      </p>
+      </span>
     );
 
   return (
@@ -90,7 +90,7 @@ export function Digit({
           transitionProperty: loaded ? "all" : "none",
         }}
       >
-        <p
+        <span
           ref={ref}
           style={{
             ...customStyle,
@@ -101,7 +101,7 @@ export function Digit({
           className={className || ""}
         >
           {char}
-        </p>
+        </span>
       </div>
       <div
         aria-hidden="true"
@@ -117,9 +117,9 @@ export function Digit({
         }}
       >
         {new Array(10).fill(null).map((_, i) => (
-          <p key={i} style={customStyle} className={className}>
+          <span key={i} style={customStyle} className={className}>
             {i}
-          </p>
+          </span>
         ))}
       </div>
     </div>
