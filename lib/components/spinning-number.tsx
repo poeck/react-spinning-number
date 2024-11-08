@@ -84,7 +84,7 @@ export function SpinningNumber({
   }, []);
 
   return (
-    <div
+    <span
       style={{ display: "flex", justifyContent: "start", alignItems: "center" }}
     >
       <span
@@ -111,6 +111,6 @@ export function SpinningNumber({
           {...props}
         />
       ))}
-    </div>
+    </span>
   );
 }

@@ -46,7 +46,7 @@ export function Digit({
 
   if (char === null)
     return (
-      <div
+      <span
         aria-hidden="true"
         style={{
           width,
@@ -59,7 +59,7 @@ export function Digit({
         <span aria-hidden="true" style={customStyle} className={className}>
           {previousValue}
         </span>
-      </div>
+      </span>
     );
 
   if (!/^\d+$/.test(char))
@@ -70,7 +70,7 @@ export function Digit({
     );
 
   return (
-    <div
+    <span
       style={{
         height: `${fontSize}rem`,
         position: "relative",
@@ -82,7 +82,7 @@ export function Digit({
       }}
       aria-hidden="true"
     >
-      <div
+      <span
         style={{
           width,
           transitionDelay: `${delay}ms`,
@@ -102,8 +102,8 @@ export function Digit({
         >
           {char}
         </span>
-      </div>
-      <div
+      </span>
+      <span
         aria-hidden="true"
         style={{
           position: "absolute",
@@ -121,7 +121,7 @@ export function Digit({
             {i}
           </span>
         ))}
-      </div>
-    </div>
+      </span>
+    </span>
   );
 }
